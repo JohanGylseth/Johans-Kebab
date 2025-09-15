@@ -82,7 +82,7 @@ body {
 
 /* Hovedinnhold */
 .main {
-    margin-top: 80px;
+    margin-top: 0;
     min-height: calc(100vh - 80px);
 }
 
@@ -157,7 +157,7 @@ body {
 .kebab-image-container {
     text-align: center;
     background: rgba(255,255,255,0.1);
-    padding: 0.5rem;
+    padding: 2rem;
     border-radius: 20px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.2);
@@ -437,7 +437,7 @@ body {
     }
     
     .kebab-image-container {
-        padding: 0.25rem;
+        padding: 1rem;
     }
 }
 
@@ -464,6 +464,6 @@ body {
     }
     
     .kebab-image-container {
-        padding: 0.25rem;
+        padding: 0.5rem;
     }
 }

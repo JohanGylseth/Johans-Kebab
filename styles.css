@@ -154,20 +154,28 @@ body {
     align-items: center;
 }
 
-.kebab-placeholder {
+.kebab-image-container {
     text-align: center;
     background: rgba(255,255,255,0.1);
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 20px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.2);
+    overflow: hidden;
 }
 
-.shawarma-spit {
-    font-size: 8rem;
-    margin-bottom: 1rem;
-    animation: rotate 4s linear infinite;
-    transform-origin: center bottom;
+.kebab-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.kebab-image:hover {
+    transform: scale(1.05);
 }
 
 @keyframes bounce {
@@ -424,8 +432,12 @@ body {
         grid-template-columns: 1fr;
     }
     
-    .shawarma-spit {
-        font-size: 5rem;
+    .kebab-image {
+        max-width: 300px;
+    }
+    
+    .kebab-image-container {
+        padding: 1rem;
     }
 }
 
@@ -445,5 +457,13 @@ body {
     
     .order-form {
         padding: 1rem;
+    }
+    
+    .kebab-image {
+        max-width: 250px;
+    }
+    
+    .kebab-image-container {
+        padding: 0.5rem;
     }
 }

@@ -166,7 +166,7 @@ body {
 
 .kebab-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     height: auto;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
@@ -433,7 +433,7 @@ body {
     }
     
     .kebab-image {
-        max-width: 300px;
+        max-width: 250px;
     }
     
     .kebab-image-container {
@@ -460,7 +460,7 @@ body {
     }
     
     .kebab-image {
-        max-width: 250px;
+        max-width: 200px;
     }
     
     .kebab-image-container {
